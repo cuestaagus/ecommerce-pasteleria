@@ -1,21 +1,24 @@
-Pastelería
+# Pastelería
 
-Proyecto de e-commerce desarrollado con React para una emprendimiento de pastelería.
+Proyecto de e-commerce desarrollado con React para un emprendimiento de pastelería.
 
-Tecnologías
-React
-JavaScript
-Vite
-CSS
-Instalación
+## Tecnologías
 
-Para instalar las dependencias del proyecto:
+- React
+- JavaScript
+- Vite
+- CSS
 
-npm install
-Ejecución
+## Instalación
 
-Para iniciar el servidor de desarrollo:
+Para instalar las dependencias del proyecto, ejecutar:
 
-npm run dev
+    npm install
 
-Luego, abrir la dirección indicada por Vite en el navegador.
+## Ejecución
+
+Para iniciar el servidor de desarrollo, ejecutar:
+
+    npm run dev
+
+Luego, abrir en el navegador la dirección indicada por Vite.
