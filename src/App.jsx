@@ -1,10 +1,14 @@
+import "./App.css";
+import Navbar from "./components/Navbar";
+import ItemListContainer from "./components/ItemListContainer";
+
 function App () {
   return (
     <div>
-      <h1>Pastelería</h1>
-      <p>Un lugar para disfrutar de algo dulce.</p>
+      <Navbar />
+      <ItemListContainer greeting="Bienvenidos a Miguita 🍪" />
     </div>
-  )
+  );
 }
 
-export default App 
+export default App; 
