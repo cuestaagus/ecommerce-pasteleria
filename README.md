@@ -1,6 +1,6 @@
-# Pastelería
+# Miguita
 
-Proyecto de e-commerce desarrollado con React para un emprendimiento de pastelería.
+Proyecto de e-commerce desarrollado con React para una de pastelería artesanal.
 
 ## Tecnologías
 
@@ -8,6 +8,12 @@ Proyecto de e-commerce desarrollado con React para un emprendimiento de pasteler
 - JavaScript
 - Vite
 - CSS
+
+## Componentes
+
+- Navbar: muestra el nombre de la tienda y las categorías de productos.
+- CartWidget: muestra el icono del carrito y la cantidad de productos.
+- ItemListContainer: muestra un mensaje de bienvenida recibido mediante props.
 
 ## Instalación
 
