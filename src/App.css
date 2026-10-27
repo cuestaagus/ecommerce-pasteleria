@@ -1,0 +1,65 @@
+
+/* Colores principales de Miguita */
+:root {
+  --crema: #F5EBDD;
+  --chocolate: #633F32;
+  --mostaza: #E6B84C;
+  --frutilla: #D87968;
+  --salvia: #82916A;
+  --menta: #B9D7D0;
+}
+
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: var(--crema);
+  color: var(--chocolate);
+  font-family: Arial, sans-serif;
+}
+
+/* Barra de navegación */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: var(--chocolate);
+  color: var(--crema);
+}
+
+/* Nombre de la pastelería */
+nav h2 {
+  margin: 0;
+  font-size: 28px;
+}
+
+/* Lista de categorías */
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Enlaces de las categorías */
+nav a {
+  color: var(--crema);
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Efecto al pasar el ratón */
+nav a:hover {
+  color: var(--mostaza);
+}
+
+/* Carrito */
+nav > div {
+  font-size: 20px;
+}
