@@ -63,3 +63,50 @@ nav a:hover {
 nav > div {
   font-size: 20px;
 }
+
+
+/* Listado de productos */
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 30px;
+}
+
+/* Tarjeta de cada producto */
+.product-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Imagen del producto */
+.product-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.product-card h3 {
+  margin-bottom: 10px;
+  color: var(--chocolate);
+  min-height: 48px;
+}
+
+.product-card p {
+  margin-bottom: 10px;
+  min-height: 40px;
+}
+
+/* Nombre del producto */
+.product-card h3 {
+  margin-bottom: 10px;
+  color: var(--chocolate);
+}
+
+/* Descripción y precio */
+.product-card p {
+  margin-bottom: 10px;
+}

@@ -1,3 +1,4 @@
+
 import Item from "./Item";
 
 function ItemList(props) {
@@ -7,9 +8,11 @@ function ItemList(props) {
         <div>
             <h2>Listado de Productos</h2>
 
-            {products.map((product) => (
-            <Item key={product.id} product={product} />
-            ))}
+            <div className="product-list">
+                {products.map((product) => (
+                    <Item key={product.id} product={product} />
+                ))}
+            </div>
         </div>
     );
 }

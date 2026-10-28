@@ -1,6 +1,7 @@
+
 function Item(props) {
     return (
-        <div>
+        <div className="product-card">
             <h3>{props.product.name}</h3>
             <p>{props.product.description}</p>
             <p>Precio: €{props.product.price}</p>
