@@ -16,7 +16,7 @@ function ItemDetail({ product}) {
 
                 <p>{product.description}</p>
 
-                <p>Stock disponible={product.stock}</p>
+                <p>Disponibles: {product.stock} unidades</p>
 
                 <ItemCount stock={product.stock} />
             </div>
